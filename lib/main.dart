@@ -3,7 +3,7 @@ void main() {
   return runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.black,
         appBar: AppBar(
           title: Text(
             'Dice',
@@ -12,7 +12,7 @@ void main() {
             ),
           ),
           centerTitle: true,
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.black,
         ),
         body: DicePage(),
       ),
@@ -28,7 +28,7 @@ class DicePage extends StatelessWidget {
       child: Row(
         children: [
           Expanded(
-            child: Image.asset('images/dice3.png'),
+            child: Image.asset('images/dice1.png'),
           ),
           Expanded(
             child: Image.asset('images/dice2.png'),
